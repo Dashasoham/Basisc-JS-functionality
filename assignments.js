@@ -1,4 +1,10 @@
-/*const country = "Ukraine"
+/*
+
+
+
+
+
+const country = "Ukraine"
 const continent = "Eurasia"
 let population = 38000000
 
@@ -24,29 +30,18 @@ console.log(population)
 let populationFinland = 3000000
 console.log(population > populationFinland)
 console.log(population < 33000000)
-let description = country + " is in " + continent + " and its " + population + " speak " + language
+let description = `${country} is in ${continent} and its ${population} speak ${language}`
 console.log(description)
+
+//type cohersion
+
+console.log("I´m " + 23 + " years old")
+console.log("I´m " + "23" + " years old")
+console.log("23" - "10" - 3)
+
+let n = "1" + 1
+n = n - 1
+console.log(n)
+
+
 */
-
-let massMark = 78
-let massJohn = 92
-
-let heightMark = 1.69
-let heightJohn = 1.95
-
-massMark = 95
-massJohn = 85
-
-heightMark = 1.88
-heightJohn = 1.76
-
-const bmiMark = massMark / heightMark ** 2
-const bmiJohn = massJohn / (heightJohn * heightJohn)
-const bmiCommon = bmiMark + bmiJohn
-console.log(bmiMark, bmiJohn, bmiCommon)
-
-let markHigherBMI = bmiMark > bmiJohn
-console.log(markHigherBMI)
-
-
-

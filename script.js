@@ -89,4 +89,79 @@ const averageAge = (ageBecca + ageJohn) / 2
 console.log(ageBecca)
 console.log(ageJohn)
 console.log(averageAge)
+
+
+const firstName = "Daria"
+const job = "teacher"
+
+const birthYear = 1991
+const year = 2037
+
+const daria = "I´m " + firstName + ", a " + (year - birthYear) + " years old " + job + "!"
+console.log(daria)
+
+const dariaNew = `I´m ${firstName}, a ${year - birthYear} year old ${job} `
+console.log(dariaNew)
+
+console.log(`Just a regular string`)
+
+console.log("String with \n\ multiple\n\ lines")
+
+console.log(`String
+multiple
+lines`)
+
+//Strings and template literals
+//If/else
+const age = 15
+
+
+if (age >= 18) {
+    console.log(`Sarah can start driving license 🙍‍♀️`)
+
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sarah is too young. Wait another ${yearsLeft} years`)
+}
+
+const birthYear = 2001;
+let century;
+if (birthYear <= 2000) {
+    century = 20
+} else {
+    century = 21
+}
+console.log(century)
+
+
+const inputYear = "1991"
+console.log(Number(inputYear), inputYear)
+console.log(Number(inputYear) + 18)
+
+console.log(Number("Jonas"))
+
+console.log(typeof NaN)
+console.log(String(23), 23)
+
+
 */
+console.log(Boolean(0))
+console.log(Boolean(undefined))
+console.log(Boolean("Jonas"))
+console.log(Boolean({}))
+
+// 0 will be converted to false
+
+const money = 100
+if (money) {
+    console.log("Don´t spend it all")
+} else {
+    console.log(`You should get a job`)
+}
+// undefined is a falsy value
+let height
+if (height) {
+    console.log("Yay! Height is defined")
+} else {
+    console.log("Height is UNDEFINED")
+}
