@@ -144,7 +144,7 @@ console.log(typeof NaN)
 console.log(String(23), 23)
 
 
-*/
+
 console.log(Boolean(0))
 console.log(Boolean(undefined))
 console.log(Boolean("Jonas"))
@@ -165,3 +165,30 @@ if (height) {
 } else {
     console.log("Height is UNDEFINED")
 }
+
+
+const age = "18"
+if (age === 18)
+    console.log("Hi strict")
+
+if (age == 18) console.log("Hi loose")
+
+const favorite = Number(prompt("What´s your favorite number?"))
+console.log(favorite)
+console.log(typeof favorite)
+
+if (favorite === 23) { //"23"==23
+    console.log("Cool! 23 is an amazing number")
+} else if (favorite === 7) {
+    console.log("7 is also a cool number")
+} else if (favorite === 9) {
+    console.log("9 is also good")
+}
+
+else {
+    console.log("number is not 23 or 7")
+}
+
+
+if (favorite !== 23) console.log("Why not 23?")
+*/
