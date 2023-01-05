@@ -58,7 +58,7 @@ is this happening?
 when you input 1
 8. Reflectonwhyweshouldusethe===operatorandtypeconversioninthis
 situation
-*/
+
 
 const numNeighbours = Number(prompt("How many neighbour countries does your country have?"))
 console.log(typeof numNeighbours)
@@ -69,3 +69,20 @@ else if (numNeighbours > 1) {
 } else if (numNeighbours === 0) {
     console.log("No borders")
 }
+
+
+
+const country = "Canada"
+const population = 38000000
+const language = "English"
+
+let isIsland = false;
+
+
+if (language === "English" && population < 50000000 && !isIsland) {
+    console.log(`You should live in ${country}`)
+} else {
+    console.log(`${country} does not meet your criteria`)
+}
+*/
+
