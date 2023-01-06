@@ -53,7 +53,7 @@ if (dolphinsScore < koalasScore) {
 } else {
     console.log("A draw!")
 }
-*/
+
 
 const dolphins1 = 95
 const dolphins2 = 100
@@ -93,4 +93,25 @@ if (dolphinsWin > koalasWin && minWinDolphins) {
 } else {
     console.log("No one wins the trophy 🏆")
 }
+*/
+
+
+//#4
+
+const bill = 430
+
+const tip = bill >= 50 && bill <= 300 ? bill * 0.15 : bill * 0.2
+
+console.log(`The bill was ${bill}, the tip was ${tip}, and the total value was ${bill + tip}`)
+
+
+
+
+// const total = bill >= 50 && bill <= 300 ? `The bill was ${bill}, the tip was ${bill * 0.15}, and the total value was ${bill + bill * 0.15}` :
+//     `The bill was ${bill}, the tip was ${bill * 0.2}, and the total value was ${bill + bill * 0.2}`
+
+
+// console.log(total)
+
+
 
